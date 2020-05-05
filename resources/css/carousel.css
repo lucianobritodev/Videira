@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+div.carousel {
+    background-color: white;
+    margin: 0;
+    padding: 3% 0 0 0;
+    background-color: #f2f2f2;
+}
+
+div.carousel-inner {
+    min-height: 350px;
+    width: 82%;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 35px;
+}
+
+@media (min-width:1170px) { 
+    div.carousel-inner {
+        max-height: 450px;
+    }
+}
+
+/*
+div a.left span.glyphicon {
+   left: 200px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+div a.right span.glyphicon {
+    right: 200px;
+    margin: 0;
+    padding: 0;
+}
+*/

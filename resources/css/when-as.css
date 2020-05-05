@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+main.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+main article {
+    
+}
+
+.title-h1 {
+    font: bold;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #5c0a0a;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.text-p-center {
+    font-size: 1.7em;
+    font-style: normal;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #5c0a0a;
+    text-align: justify;
+    word-spacing: 100%;
+    text-indent: 5%;
+}
+
+.griffs {
+    font-weight: bold;
+}

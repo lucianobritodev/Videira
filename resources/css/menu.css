@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@media (max-width: 1005px) {
+    .navbar-social-media {
+        display: none !important;
+    }
+}
+
+@media (max-width: 770px) {
+    .navbar-social-media {
+        display: block !important;
+    }
+
+    /*Menu de Navegação*/
+    div ul.navbar-menu {
+        left: 0em !important;
+    }
+
+
+    /*Redes Sociais*/
+    ul.navbar-social-media {
+        left: 1em !important;
+    }
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    background-color: #800000 !important;
+    border-style: none;
+    z-index: 1;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*Logomarca*/
+div.navbar-logo {
+    height: inherit;
+}
+
+a.navbar-brand {
+    height: inherit;
+    width: 10em;
+}
+
+
+div.logo-icon {
+    float: left;
+}
+
+div.logo-icon img {
+    position: relative;
+    top: -0.2em;
+
+}
+
+div.logo-name {
+    position: relative;
+    top: 0em;
+    left: 1em;
+    color: darkgray;
+    font-size: 130%;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.logo-name:hover {
+    color: #fff;
+}
+
+div#menu-button ul li a {
+    color: darkgray;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#menu-button ul li a:hover {
+    color: #fff;
+    background: none;
+}
+
+
+/*Menu de Navegação*/
+div ul.navbar-menu {
+    position: relative;
+    left: 7em;
+}
+
+
+/*Redes Sociais*/
+ul.navbar-social-media {
+    position: relative;
+    list-style: none;
+    left: 9em;
+}
+
+ul.navbar-social-media li {
+    display: inline-block;
+}
+
+ul.navbar-social-media li a {
+    margin: 1.2em 1em 0 0;
+    padding: 0;
+}
+
+ul.navbar-social-media li a img {
+    height: 1.6em;
+
+}
