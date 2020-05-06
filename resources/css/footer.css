@@ -1,18 +1,46 @@
-@media (max-width: 1005px) {
+@media (max-width: 1170px) {
+    footer {
+        width: 100% !important;
+    }
+
     .footer-col-left {
         background-color: brown;
-        width: 45%;
-        height: 3em;
+        width: 50%;
+        height: 7em;
     }
     
     .footer-col-right {
         background-color: crimson;
-        width: 45%;
-        height: 3em;
+        width: 50%;
+        height: 7em;
     }
 }
 
+
+@media (max-width: 1005px) {
+    footer {
+        width: 100% !important;
+    }
+
+    .footer-col-left {
+        background-color: brown;
+        width: 50%;
+        height: 7em;
+    }
+    
+    .footer-col-right {
+        background-color: crimson;
+        width: 50%;
+        height: 7em;
+    }
+}
+
+
 @media (max-width: 770px) {
+    footer {
+        width: 100% !important;
+    }
+
     .footer-col-left {
         background-color: brown;
         width: 100%;
