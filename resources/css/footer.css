@@ -1,6 +1,11 @@
+
+
+
 @media (max-width: 1170px) {
     footer {
         width: 100% !important;
+        height: 10em;
+        background-color: brown;
     }
 
     .footer-col-left {
@@ -20,6 +25,8 @@
 @media (max-width: 1005px) {
     footer {
         width: 100% !important;
+        height: 10em;
+        background-color: brown;
     }
 
     .footer-col-left {
@@ -39,6 +46,8 @@
 @media (max-width: 770px) {
     footer {
         width: 100% !important;
+        height: 10em;
+        background-color: brown;
     }
 
     .footer-col-left {
