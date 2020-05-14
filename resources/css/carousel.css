@@ -8,7 +8,7 @@ div.carousel {
 }
 
 div.carousel-inner {
-    min-height: 200px;
+    min-height: 150px;
     width: 82%;
     padding: 0;
     margin: 0 auto;
