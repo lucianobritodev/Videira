@@ -1,23 +1,141 @@
+footer {
+    background-color: #D3D3D3;
+}
 
-
-
-@media (max-width: 1170px) {
+@media (max-width: 1920px) {
     footer {
         width: 100% !important;
-        height: 10em;
-        background-color: brown;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
     .footer-col-left {
-        background-color: brown;
         width: 50%;
         height: 7em;
     }
     
     .footer-col-right {
-        background-color: crimson;
         width: 50%;
         height: 7em;
+    }
+
+    .brand {
+        width: 8em;
+        height: 5em;
+        position: relative;
+        float: right;
+        top: 15%;
+    }
+
+    .brand img {
+        position: relative;
+        top: -4%;
+    }
+
+    .description-logo {
+        width: 20em;
+        height: 5em;
+        position: relative;
+        float: left;
+        top: 15%;
+    }
+
+    .description-logo h3 {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-align: center;
+        margin: 1% 0;
+    }
+
+    .description-logo p {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-align: start;
+        margin: -8.5% 0 0 5%;
+    }
+
+    .description-logo p a {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-decoration: none;
+        text-underline-position: unset;
+    }
+
+    .description-logo img {
+        position: relative;
+        width: 1.3em;
+        left: -4%;
+        top: -5%;
+        opacity: 70%;
+    }
+}
+
+
+@media (max-width: 1170px) {
+    footer {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .footer-col-left {
+        width: 50%;
+        height: 7em;
+    }
+    
+    .footer-col-right {
+        width: 50%;
+        height: 7em;
+    }
+
+    .brand {
+        width: 8em;
+        height: 5em;
+        position: relative;
+        float: right;
+        top: 15%;
+    }
+
+    .brand img {
+        position: relative;
+        top: -4%;
+    }
+
+    .description-logo {
+        width: 20em;
+        height: 5em;
+        position: relative;
+        float: left;
+        top: 15%;
+    }
+
+    .description-logo h3 {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-align: center;
+        margin: 1% 0;
+    }
+
+    .description-logo p {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-align: start;
+        margin: -8.5% 0 0 5%;
+    }
+
+    .description-logo p a {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-decoration: none;
+        text-underline-position: unset;
+    }
+
+    .description-logo img {
+        position: relative;
+        width: 1.3em;
+        left: -4%;
+        top: -5%;
+        opacity: 70%;
     }
 }
 
@@ -25,20 +143,69 @@
 @media (max-width: 1005px) {
     footer {
         width: 100% !important;
-        height: 10em;
-        background-color: brown;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
     .footer-col-left {
-        background-color: brown;
         width: 50%;
         height: 7em;
     }
     
     .footer-col-right {
-        background-color: crimson;
         width: 50%;
         height: 7em;
+    }
+
+    .brand {
+        width: 8em;
+        height: 5em;
+        position: relative;
+        float: right;
+        top: 15%;
+    }
+
+    .brand img {
+        position: relative;
+        top: -4%;
+    }
+
+    .description-logo {
+        width: 20em;
+        height: 5em;
+        position: relative;
+        float: left;
+        top: 15%;
+    }
+
+    .description-logo h3 {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-align: center;
+        margin: 1% 0;
+    }
+
+    .description-logo p {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-align: start;
+        margin: -8.5% 0 0 5%;
+        
+    }
+
+    .description-logo p a {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-decoration: none;
+        text-underline-position: unset;
+    }
+
+    .description-logo img {
+        position: relative;
+        width: 1.3em;
+        left: -4%;
+        top: -5%;
+        opacity: 70%;
     }
 }
 
@@ -46,19 +213,77 @@
 @media (max-width: 770px) {
     footer {
         width: 100% !important;
-        height: 10em;
-        background-color: brown;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
     .footer-col-left {
-        background-color: brown;
+        margin: 0;
+        padding: 0;
         width: 100%;
-        height: 3em;
+        height: 5em;
     }
     
     .footer-col-right {
-        background-color: crimson;
+        margin: 0;
+        padding: 0;
         width: 100%;
-        height: 3em;
+        height: 5em;
     }
+
+    .brand {
+        float: none;
+        width: 8em;
+        height: 5em;
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+
+    .description-logo {
+        float: none;
+        width: 20em;
+        height: 5em;
+        position: relative;
+        top: 0%;
+    }
+
+    .brand img {
+        position: relative;
+        top: -5%;
+    }
+
+    .description-logo h3 {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-align: center;
+        margin: 1% 0;
+    }
+
+    .description-logo p {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-align: center;
+        margin: -8.5% 0 0 5%;
+        
+    }
+
+    .description-logo p a {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:	#4F4F4F;
+        text-decoration: none;
+        text-underline-position: unset;
+    }
+
+    .description-logo img {
+        position: relative;
+        width: 1.3em;
+        left: -4%;
+        top: -3%;
+        opacity: 70%;
+    }
+
+    .description-logo #call {
+        left: 10%;
+    }    
 }
