@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@media (max-width: 1920px) {
+
+}
+
+
+@media (max-width: 1170px) {
+
+}
+
+
+@media (max-width: 1005px) {
+    .navbar-social-media {
+        display: none !important;
+    }
+}
+
 @media (max-width: 1005px) {
     .navbar-social-media {
         display: none !important;
@@ -20,6 +36,15 @@
     /*Redes Sociais*/
     ul.navbar-social-media {
         left: 1em !important;
+    }
+
+    ul.navbar-social-media li a {
+        margin: 1.2em 2em 1.2em 2em !important;
+        padding: 0;
+    }
+    
+    ul.navbar-social-media li a img {
+        height: 2.5em !important;
     }
 }
 
@@ -111,5 +136,4 @@ ul.navbar-social-media li a {
 
 ul.navbar-social-media li a img {
     height: 1.6em;
-
 }
