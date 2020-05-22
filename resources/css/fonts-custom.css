@@ -1,3 +1,31 @@
+@media (max-width: 1920px) {
+    h1.title-article {
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    p.text-article {
+        font-size: 1.8em;
+        word-spacing: 100%;
+    }
+
+    h1.title-serman {
+        font-size: 2.5em;
+        text-indent: 0.8em;
+    }
+
+    h3.subtitle-serman {
+        font-size: 1.8em;
+        text-indent: 1.2em;
+    }
+
+    p.text-serman {
+        font-size: 1.4em;
+        text-indent: 1.5em;
+        text-align: justify;
+    }
+}
+
 @media (max-width: 1170px) {
     h1.title-article {
         font-size: 2.5em;
@@ -6,6 +34,22 @@
     p.text-article {
         font-size: 1.8em;
         word-spacing: 100%;
+    }
+
+    h1.title-serman {
+        font-size: 2.5em;
+        text-indent: 1.5em;
+    }
+
+    h3.subtitle-serman {
+        font-size: 1.8em;
+        text-indent: 1.5em;
+    }
+
+    p.text-serman {
+        font-size: 1.4em;
+        text-indent: 1.5em;
+        text-align: justify;
     }
 }
 
@@ -17,6 +61,22 @@
     p.text-article {
         font-size: 1.4em;
         word-spacing: 100%;
+    }
+
+    h1.title-serman {
+        font-size: 2em;
+        text-indent: 1.3em;
+    }
+
+    h3.subtitle-serman {
+        font-size: 1.6em;
+        text-indent: 1.3em;
+    }
+
+    p.text-serman {
+        font-size: 1.3em;
+        text-indent: 1.3em;
+        text-align: justify;
     }
 }
 
@@ -34,6 +94,33 @@
         word-spacing: 100%;
         text-indent: 5%;
     }
+
+    h1.title-serman {
+        font-size: 1.7em;
+        text-indent: 1em;
+    }
+
+    h3.subtitle-serman {
+        font-size: 1.4em;
+        text-indent: 1em;
+    }
+
+    p.text-serman {
+        font-size: 1.1em;
+        text-indent: 1em;
+        text-align: justify;
+    }
 }
 
+div h1.title-footer {
+    position: relative;
+    color: #fff;
+}
 
+div h3.subtitle-footer {
+    color: #fff;
+}
+
+div p.text-footer {
+    color: #fff;
+}

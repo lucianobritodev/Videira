@@ -33,25 +33,28 @@ footer {
     }
 
     .description-logo {
-        width: 20em;
-        height: 5em;
+        width: 23em;
+        height: 5.5em;
         position: relative;
         float: left;
         top: 15%;
+        right: 1.5em;
+        border-left: 1.5px solid #4F4F4F;
+        padding-left: 3em;
     }
 
     .description-logo h3 {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
         color:	#4F4F4F;
-        text-align: center;
-        margin: 1% 0;
+        text-align: left;
+        margin: 2% 0 2% -2%;
     }
 
     .description-logo p {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
         color:	#4F4F4F;
         text-align: start;
-        margin: -8.5% 0 0 5%;
+        margin: -8.5% 0 2% 8%;
     }
 
     .description-logo p a {
@@ -64,7 +67,7 @@ footer {
     .description-logo img {
         position: relative;
         width: 1.3em;
-        left: -4%;
+        left: -2%;
         top: -5%;
         opacity: 70%;
     }

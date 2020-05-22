@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+@media (max-width: 1920px) {
+
+    div.img-serman {
+        width: 67%;
+        height: 18em;
+        background-color: darkgrey;
+        float: none;
+    }
+
+    article.serman-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1170px) {
+
+    div.img-serman {
+        width: 65%;
+        height: 18em;
+        background-color: darkgrey;
+        float: none;
+    }
+}
+
+main.serman-main {
+    top: -1.5em;
+}
+
+div.serman-container {
+    margin-bottom: 5em;
+}
+
+article.serman-content {
+    margin-top: 3em;
+}

@@ -39,7 +39,7 @@
     }
 
     ul.navbar-social-media li a {
-        margin: 1.2em 2em 1.2em 2em !important;
+        margin: 1.5em 0 1.5em 0;
         padding: 0;
     }
     
@@ -48,9 +48,11 @@
     }
 }
 
+nav.menu-top {
+    margin-bottom: -1.5em !important;
+}
+
 nav {
-    margin: 0;
-    padding: 0;
     border-style: none;
     background-color: #800000 !important;
     border-style: none;
