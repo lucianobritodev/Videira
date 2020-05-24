@@ -18,9 +18,39 @@
 
     div.img-serman {
         width: 65%;
-        height: 18em;
-        background-color: darkgrey;
-        float: none;
+    }
+}
+
+@media (max-width: 1005px) {
+
+    div.img-serman {
+        width: 65%;
+    }
+}
+
+@media (max-width: 770px) {
+
+    div.img-serman {
+        width: 80%;
+        height: 14em;
+        margin: 0 10%;
+        padding: 0;
+    }
+
+    main.serman-main {
+        top: -1.5em;
+        width: 100%;
+    }
+    
+    div.serman-container {
+        margin-top: -1.5em;
+        margin-bottom: 5em;
+        width: 100%;
+    }
+    
+    article.serman-content {
+        margin-top: 3em;
+        width: 80%;
     }
 }
 

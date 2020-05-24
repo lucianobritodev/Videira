@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+div.divisor-between-map-and-footer {
+    width: 100%;
+    clear: both;
+}

@@ -124,3 +124,8 @@ div h3.subtitle-footer {
 div p.text-footer {
     color: #fff;
 }
+
+div p.copyright {
+    color:  	#fff;
+    font-weight: bold;
+}
