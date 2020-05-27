@@ -1,12 +1,68 @@
 @charset "UTF-8";
 
 @media (max-width: 1920px) {
+    div.navbar-logo {
+        margin: 2.5% -30%;
+    }
 
+    div.menu-container {
+        position: relative;
+        float: left;
+        width: 60%;
+    }
+
+    div ul.navbar-menu {
+        margin: 1% 20%;
+    }
+
+    div.social-media-container {
+        float: right;
+        width: 22%;
+        top: 0 !important;
+        left: 0 !important;
+        margin: 2% 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    div.social-media-container ul {
+        width: 100%;
+        top: 0 !important;
+        left: 0 !important;
+        margin: 0 0 0 0!important;
+        padding: 0 !important;
+    }
+
+    div.social-media-container ul li {
+        width: 25%;
+        margin: 0 0 0 0 !important;
+        padding: 0 0 0 0 !important;
+    }
+    div.social-media-container ul li a{
+        margin: 0;
+        padding: 0;
+    }
 }
 
 
 @media (max-width: 1170px) {
+    div.navbar-logo {
+        margin: 2.5% -20%;
+    }
 
+    div.menu-container {
+        left: -18%;
+        width: 58%;
+        background-color: aqua;
+    }
+
+    div ul.navbar-menu {
+        margin: 1% 14%;
+    }
+
+    div.social-media-container {
+        margin: 2% 1%;
+    }
 }
 
 
@@ -66,9 +122,6 @@ section {
 }
 
 /*Logomarca*/
-div.navbar-logo {
-    height: inherit;
-}
 
 a.navbar-brand {
     height: inherit;
@@ -116,7 +169,6 @@ div#menu-button ul li a:hover {
 /*Menu de Navegação*/
 div ul.navbar-menu {
     position: relative;
-    left: 7em;
 }
 
 
@@ -138,4 +190,5 @@ ul.navbar-social-media li a {
 
 ul.navbar-social-media li a img {
     height: 1.6em;
+    
 }
