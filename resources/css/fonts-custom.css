@@ -148,3 +148,19 @@ div p.copyright {
     color:  	#fff;
     font-weight: bold;
 }
+
+div h1.title-serman {
+    color: #fff;
+}
+
+div h3.subtitle-serman {
+    color: #fff;
+}
+
+div p.text-serman {
+    color: #fff;
+}
+
+div p.biblical-text {
+    color: #fff;
+}
