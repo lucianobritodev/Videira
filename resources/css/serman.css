@@ -6,7 +6,7 @@
         width: 100%;
         height: fit-content;
         margin: 0 auto;
-        padding: 0 15%;
+        padding: 0 10%;
         float: none;
         overflow: hidden;
         clear: both;
@@ -47,7 +47,7 @@
 
     main.serman-main {
         top: -1.5em;
-        width: 100%;
+        width: 87%;
     }
     
     div.serman-container {
