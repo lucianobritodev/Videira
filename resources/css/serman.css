@@ -4,12 +4,20 @@
 
     div.img-serman {
         width: 67%;
-        height: 18em;
-        background-color: darkgrey;
+        height: fit-content;
+        margin: 0 auto;
+        padding: 0 15%;
         float: none;
+        overflow: hidden;
+        clear: both;
+    }
+
+    div.img-serman img {
+        width: 100%;
     }
 
     article.serman-content {
+        clear: both;
         width: 70%;
     }
 }
@@ -18,6 +26,7 @@
 
     div.img-serman {
         width: 65%;
+        padding: 0 5%;
     }
 }
 
@@ -25,6 +34,7 @@
 
     div.img-serman {
         width: 65%;
+        padding: 0;
     }
 }
 
@@ -32,8 +42,6 @@
 
     div.img-serman {
         width: 80%;
-        height: 14em;
-        margin: 0 10%;
         padding: 0;
     }
 
