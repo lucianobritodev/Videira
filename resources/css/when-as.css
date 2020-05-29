@@ -29,3 +29,9 @@ main.container {
 .griffs {
     font-weight: bold;
 }
+
+@media(max-width: 770px) {
+    main.container {
+        margin-top: -2.5em;
+    }
+}
