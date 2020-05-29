@@ -1,4 +1,47 @@
 @charset "UTF-8";
+section.vision {
+    position: relative;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
-div.vision {
+section .salutation {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    z-index: 1;
+    top: 1.5em;
+    left: 0;
+}
+
+
+section .image img {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@media(max-width: 1920px) {
+    section .salutation {
+        height: 95.7%;
+    }
+}
+
+@media(max-width: 1170px) {
+    section .salutation {
+        height: 95%;
+    }
+}
+
+@media(max-width: 1005px) {
+    section .salutation {
+        height: 94%;
+    }
+}
+
+@media(max-width: 770px) {
+    section .salutation {
+        height: 91.5%;
+    }
 }

@@ -1,4 +1,16 @@
 @media (max-width: 1920px) {
+    h1.title-salutation {
+        position: relative;
+        text-align: center;
+        margin-top: 5%;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3.2em;
+        font-weight: 700;
+        z-index: -10;
+        color: #fff;
+    }
+
     h1.title-article {
         font-size: 2.5em;
         margin: 0;
@@ -32,9 +44,19 @@
         font-style: italic;
         margin-left: 5em;
     }
+
+    ul li.text-serman-with-bookmarks {
+        font-size: 1.4em;
+        margin-left: 2.5em;
+    }
 }
 
 @media (max-width: 1170px) {
+
+    h1.title-salutation {
+        font-size: 2.8em;
+    }
+
     h1.title-article {
         font-size: 2.5em;
     }
@@ -60,9 +82,18 @@
         text-align: justify;
     }
 
+    ul li.text-serman-with-bookmarks {
+        font-size: 1.4em;
+        margin-left: 2.5em;
+    }
 }
 
 @media(max-width: 1005px) {
+
+    h1.title-salutation {
+        font-size: 2.3em;
+    }
+
     h1.title-article {
         font-size: 2em;
     }
@@ -92,9 +123,19 @@
         font-size: 1.3em;
         margin-left: 4em;
     }
+
+    ul li.text-serman-with-bookmarks {
+        font-size: 1.3em;
+        margin-left: 2.3em;
+    }
 }
 
 @media(max-width: 770px) {
+
+    h1.title-salutation {
+        font-size: 1.8em;
+    }
+
     article.when-was {
         padding: 5% 10%;
     }
@@ -129,6 +170,11 @@
         font-size: 1.1em;
         margin-left: 4em;
     }
+
+    ul li.text-serman-with-bookmarks {
+        font-size: 1.1em;
+        margin-left: 2em;
+    }
 }
 
 div h1.title-footer {
@@ -150,17 +196,28 @@ div p.copyright {
 }
 
 div h1.title-serman {
-    color: #fff;
+    color:#696969;
 }
 
 div h3.subtitle-serman {
-    color: #fff;
+    color:#696969;
 }
 
 div p.text-serman {
-    color: #fff;
+    color:#696969;
 }
 
 div p.biblical-text {
-    color: #fff;
+    color:#696969;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li.text-serman-with-bookmarks {
+    list-style: circle;
+    color:#696969;
+    text-align: justify;
 }

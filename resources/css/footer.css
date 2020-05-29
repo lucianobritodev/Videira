@@ -71,6 +71,11 @@ footer {
         top: -5%;
         opacity: 70%;
     }
+
+    .description-logo #whatsapp {
+        left: 1%;
+        top: -0.2em;
+    } 
 }
 
 
@@ -288,8 +293,13 @@ footer {
     }
 
     .description-logo #call {
-        left: 17%;
-    }    
+        left: 12%;
+    }
+
+    .description-logo #whatsapp {
+        left: 1%;
+        top: -0.2em;
+    } 
 }
 
 div.copyright {
