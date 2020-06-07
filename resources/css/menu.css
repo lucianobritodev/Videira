@@ -1,28 +1,138 @@
 @charset "UTF-8";
 
 @media (max-width: 1920px) {
-
+    nav.menu-top {
+        margin-bottom: -1.5em !important;
+    }
+    
+    /*Logomarca*/
+    div.navbar-logo {
+        position: relative;
+        height: inherit;
+    }
+    
+    a.navbar-brand {
+        height: inherit;
+        width: 10em;
+    }
+    
+    div.logo-icon {
+        float: left;
+    }
+    
+    div.logo-icon img {
+        position: relative;
+        top: -0.2em;
+    }
+    
+    div.logo-name {
+        position: relative;
+        top: 0em;
+        left: 1em;
+        color: darkgray;
+        font-size: 130%;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    div.logo-name:hover {
+        color: #fff;
+    }
+    
+    div#menu-button ul li a {
+        color: darkgray;
+        font-size: 100%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    div#menu-button ul li a:hover {
+        color: #fff;
+        background: none;
+    }
+    
+    /*Menu de Navegação*/
+    div ul.navbar-menu {
+        position: relative;
+        left: 17%;
+    }
+    
+    /*Redes Sociais*/
+    ul.navbar-social-media {
+        position: relative;
+        list-style: none;
+        left: 34%;
+    }
+    
+    ul.navbar-social-media li {
+        display: inline-block;
+    }
+    
+    ul.navbar-social-media li a {
+        margin: 1.2em 1em 0 0;
+        padding: 0;
+    }
+    
+    ul.navbar-social-media li a img {
+        height: 1.6em;
+    }
+    
 }
 
 
 @media (max-width: 1170px) {
+    /*Logomarca*/
+    div.navbar-logo {
+        left: -2% !important;
+    }
 
+    /*Menu de Navegação*/
+    div ul.navbar-menu {
+        left: 12%;
+    }
+    
+    /*Redes Sociais*/
+    ul.navbar-social-media {
+        left: 33% !important;
+    }
 }
 
 
 @media (max-width: 1005px) {
-    .navbar-social-media {
-        display: none !important;
+    /*Logomarca*/
+    div.navbar-logo {
+        left: 0 !important;
+        margin: 0 0 0 -2%;
+        padding: 0;
     }
-}
 
-@media (max-width: 1005px) {
-    .navbar-social-media {
-        display: none !important;
+    /*Menu de Navegação*/
+    div ul.navbar-menu {
+        left: 0%;
+        width: 50%;
+        margin: 0;
+        padding: 0;
     }
+
+    .navbar-social-media {
+        width: 22%;
+        display: !important;
+        left: 0%;
+        margin: 0 0 0 -24%;
+        padding: 0;
+
+    }
+
+
 }
 
 @media (max-width: 770px) {
+    /*Logomarca*/
+    div.navbar-logo {
+        left: 0em !important;
+        margin: 0;
+    }
+
     .navbar-social-media {
         display: block !important;
     }
@@ -35,107 +145,36 @@
 
     /*Redes Sociais*/
     ul.navbar-social-media {
-        left: 1em !important;
+        left: 0em !important;
+        width: 100%;
+        padding: 3% 0 10%;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    ul.navbar-social-media li {
+        padding: 0;
+        left: 0;
+        top: 0;
     }
 
     ul.navbar-social-media li a {
-        margin: 1.5em 0 1.5em 0;
         padding: 0;
     }
     
     ul.navbar-social-media li a img {
-        height: 2.5em !important;
+        height: 2em !important;
     }
 }
 
-nav.menu-top {
-    margin-bottom: -1.5em !important;
-}
 
 nav {
-    border-style: none;
     background-color: #800000 !important;
-    border-style: none;
-    z-index: 1;
+    z-index: 10;
 }
 
 section {
     margin: 0;
     padding: 0;
     width: 100%;
-}
-
-/*Logomarca*/
-div.navbar-logo {
-    height: inherit;
-}
-
-a.navbar-brand {
-    height: inherit;
-    width: 10em;
-}
-
-
-div.logo-icon {
-    float: left;
-}
-
-div.logo-icon img {
-    position: relative;
-    top: -0.2em;
-
-}
-
-div.logo-name {
-    position: relative;
-    top: 0em;
-    left: 1em;
-    color: darkgray;
-    font-size: 130%;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-div.logo-name:hover {
-    color: #fff;
-}
-
-div#menu-button ul li a {
-    color: darkgray;
-    font-size: 100%;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-div#menu-button ul li a:hover {
-    color: #fff;
-    background: none;
-}
-
-
-/*Menu de Navegação*/
-div ul.navbar-menu {
-    position: relative;
-    left: 7em;
-}
-
-
-/*Redes Sociais*/
-ul.navbar-social-media {
-    position: relative;
-    list-style: none;
-    left: 9em;
-}
-
-ul.navbar-social-media li {
-    display: inline-block;
-}
-
-ul.navbar-social-media li a {
-    margin: 1.2em 1em 0 0;
-    padding: 0;
-}
-
-ul.navbar-social-media li a img {
-    height: 1.6em;
 }

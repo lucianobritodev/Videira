@@ -24,12 +24,23 @@
             $('.vision').focusin($("div#salutation").fadeIn(5000));
             $('.vision').focusout($("div#salutation").fadeOut(5000));
         });
+
+        $(function() {
+            height     =  $("#vision").css("height");
+            width      =  $("#vision").css("width");
+            marginTop  =  $("#vision").css("margin-top");
+            marginLeft =  $("#vision").css("margin-left");
+
+            /*
+            console.log("height: " + height + ", width: " + width + ", margin-top: " + marginTop + ", margin-left: " + marginLeft);
+            */
+        });
     </script>
 </head>
 <body>
     <nav class="menu-top navbar navbar-default">
         <section class="container">
-            <div class="navbar-header col-md-2 col-sm-2">
+            <div class="navbar-header">
                 <button type="button"
                         class="navbar-toggle collapsed"
                         data-toggle="collapse"
@@ -55,18 +66,18 @@
             </div>
             
             <div class="collapse navbar-collapse row" id="menu-button">
-                <ul class="nav navbar-nav navbar-menu col-md-7 col-sm-10">
+                <ul class="nav navbar-nav navbar-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="pages/cults.html">Cultos</a></li>
                     <li><a href="#address">Localização</a></li>
                     <li><a href="#contacts">Contatos</a></li>              
                 </ul>
                 
-                <ul class="nav navbar-nav navbar-social-media col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-1">
-                    <li class="col-sm-3"><a href="https://www.facebook.com/videira.luziania.98" target="_blank"><img src="includes/icons/facebook-flat.svg"></a></li>
-                    <li class="col-sm-3"><a href="https://instagram.com/videiraluzianiago?igshid=17ys05m7okf4u" target="_blank"><img src="includes/icons/instagram.png"></a></li>
-                    <li class="col-sm-3"><a href="https://twitter.com/VLuziania" target="_blank"><img src="includes/icons/twitter-flat.svg"></a></li>
-                    <li class="col-sm-3"><a href="https://www.youtube.com/channel/UCB4g8yK7TI31B7_xOFUtCZQ" target="_blank"><img src="includes/icons/youtube-flat.svg"></a></li>
+                <ul class="nav navbar-nav navbar-social-media">
+                    <li class=""><a href="https://www.facebook.com/videira.luziania.98" target="_blank"><img src="includes/icons/facebook-flat.svg"></a></li>
+                    <li class=""><a href="https://instagram.com/videiraluzianiago?igshid=17ys05m7okf4u" target="_blank"><img src="includes/icons/instagram.png"></a></li>
+                    <li class=""><a href="https://twitter.com/VLuziania" target="_blank"><img src="includes/icons/twitter-flat.svg"></a></li>
+                    <li class=""><a href="https://www.youtube.com/channel/UCB4g8yK7TI31B7_xOFUtCZQ" target="_blank"><img src="includes/icons/youtube-flat.svg"></a></li>
                 </ul>
             </div>
         </section>
@@ -74,7 +85,7 @@
 
     <section class="vision">
         <div class="image">
-            <img class="img-responsive" src="includes/images/videira-vision.png">
+            <img id="vision" class="img-responsive" src="includes/images/videira-vision.png">
         </div>
         <div id="salutation" class="salutation">
             <h1 class="title-salutation">Seja bem-vindo!</h1>
