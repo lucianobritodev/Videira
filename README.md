@@ -1,15 +1,19 @@
 # Videira
 
-## Live Preview on Github Pages
-![Videira Luziânia](https://lucianoaparecidobritoguedes.github.io/Videira/)
+
+## Github Pages Live Preview
+
+Para vislumbrar seu comportamento, funcionalidades e também sua aparencia, você pode acessar o site através do Github Pages.
+link do projeto: https://lucianoaparecidobritoguedes.github.io/Videira/
 
 
 ## Description
 Website desenvolvido em HTML, CSS, Javascript(ES6), JQuery e Bootstrap.
 
+
 ## Function
 
-Site de entretenimento, divulgação, informação e serviços sociais. Sua finalidade principal e viabilizar por meio de mecanismos de informação a distribuição e divulgação de ensimanetos cristãos neotestamentários.
+Objetivo deste site é promover entretenimento, divulgação, informação e serviços sociais. Todavia, sua operabilidade proporciona a distribuição e divulgação de ensimanetos cristãos neotestamentários.
 
 
 ## Contributors
