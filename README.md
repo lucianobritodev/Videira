@@ -1,7 +1,7 @@
-# VideiraSite
+# Videira
 
-## Live Preview
-![](includes/images/PreviewVideiraWebSite.png)
+## Live Preview on Github Pages
+![Videira Luziânia](https://lucianoaparecidobritoguedes.github.io/Videira/)
 
 ## Description
 Website desenvolvido em HTML, CSS, Javascript(ES6), JQuery e Bootstrap.
