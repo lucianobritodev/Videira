@@ -1,142 +1,219 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Videira Luziânia</title>
-    <link rel="shortcut icon" href="includes/icons/videira-logo-unofficial-favicon.png">
-    <link rel="stylesheet" href="resources/css/all.css">
-    <link rel="stylesheet" href="resources/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="resources/css/fonts-custom.css">
-    <link rel="stylesheet" href="resources/css/menu.css">
-    <link rel="stylesheet" href="resources/css/vision.css">
-    <link rel="stylesheet" href="resources/css/when-as.css">
-    <link rel="stylesheet" href="resources/css/carousel.css">
-    <link rel="stylesheet" href="resources/css/address.css">
-    <link rel="stylesheet" href="resources/css/agendas.css">
-    <link rel="stylesheet" href="resources/css/divisor-map-footer.css">
-    <link rel="stylesheet" href="resources/css/footer.css">
+    <link
+      rel="shortcut icon"
+      href="includes/icons/videira-logo-unofficial-favicon.png"
+    />
+    <link rel="stylesheet" href="resources/css/all.css" />
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="resources/css/fonts-custom.css" />
+    <link rel="stylesheet" href="resources/css/menu.css" />
+    <link rel="stylesheet" href="resources/css/vision.css" />
+    <link rel="stylesheet" href="resources/css/when-as.css" />
+    <link rel="stylesheet" href="resources/css/back-to-top.css" />
+    <link rel="stylesheet" href="resources/css/carousel.css" />
+    <link rel="stylesheet" href="resources/css/address.css" />
+    <link rel="stylesheet" href="resources/css/agendas.css" />
+    <link rel="stylesheet" href="resources/css/divisor-map-footer.css" />
+    <link rel="stylesheet" href="resources/css/footer.css" />
     <script type="text/jscript" src="resources/js/jquery-3.4.1.min.js"></script>
-    <script type="text/jscript" src="resources/js/flickity.pkgd.min.js"></script>
-    <script type="text/jscript" src="resources/js/bootstrap.min.js"></script><script type="text/jscript" src="resources/js/carousel.js"></script>
+    <script
+      type="text/jscript"
+      src="resources/js/flickity.pkgd.min.js"
+    ></script>
+    <script type="text/jscript" src="resources/js/bootstrap.min.js"></script>
+    <script type="text/jscript" src="resources/js/carousel.js"></script>
+    <script type="text/jscript" src="resources/js/back-to-top.js"></script>
     <script>
-        $(function() {
-            $('.vision').focusin($("div#salutation").fadeIn(5000));
-            $('.vision').focusout($("div#salutation").fadeOut(5000));
-        });
+      $(function () {
+        $(".vision").focusin($("div#salutation").fadeIn(5000));
+        $(".vision").focusout($("div#salutation").fadeOut(5000));
+      });
 
-        $(function() {
-            height     =  $("#vision").css("height");
-            width      =  $("#vision").css("width");
-            marginTop  =  $("#vision").css("margin-top");
-            marginLeft =  $("#vision").css("margin-left");
+      $(function () {
+        height = $("#vision").css("height");
+        width = $("#vision").css("width");
+        marginTop = $("#vision").css("margin-top");
+        marginLeft = $("#vision").css("margin-left");
 
-            /*
+        /*
             console.log("height: " + height + ", width: " + width + ", margin-top: " + marginTop + ", margin-left: " + marginLeft);
             */
-        });
+      });
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="menu-top navbar navbar-default">
-        <section class="container">
-            <div class="navbar-header">
-                <button type="button"
-                        class="navbar-toggle collapsed"
-                        data-toggle="collapse"
-                        data-target="#menu-button"
-                        area-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <div class="navbar-logo ">
-                    <a href="index.html" class="navbar-brand">
-                        <div class="logo-icon">
-                            <img width="30" class="img-responsive" src="includes/icons/videira-logo-unofficial-round.png">
-                        </div>
-                        
-                        <div class="logo-name">
-                            Videira
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="collapse navbar-collapse row" id="menu-button">
-                <ul class="nav navbar-nav navbar-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/cults.html">Cultos</a></li>
-                    <li><a href="#address">Localização</a></li>
-                    <li><a href="#contacts">Contatos</a></li>              
-                </ul>
-                
-                <ul class="nav navbar-nav navbar-social-media">
-                    <li class=""><a href="https://www.facebook.com/videira.luziania.98" target="_blank"><img src="includes/icons/facebook-flat.svg"></a></li>
-                    <li class=""><a href="https://instagram.com/videiraluzianiago?igshid=17ys05m7okf4u" target="_blank"><img src="includes/icons/instagram.png"></a></li>
-                    <li class=""><a href="https://twitter.com/VLuziania" target="_blank"><img src="includes/icons/twitter-flat.svg"></a></li>
-                    <li class=""><a href="https://www.youtube.com/channel/UCB4g8yK7TI31B7_xOFUtCZQ" target="_blank"><img src="includes/icons/youtube-flat.svg"></a></li>
-                </ul>
-            </div>
-        </section>
+      <section class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#menu-button"
+            area-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="navbar-logo">
+            <a href="index.html" class="navbar-brand">
+              <div class="logo-icon">
+                <img
+                  width="30"
+                  id="back-to-top"
+                  class="img-responsive"
+                  src="includes/icons/videira-logo-unofficial-round.png"
+                />
+              </div>
+
+              <div class="logo-name">Videira</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse row" id="menu-button">
+          <ul class="nav navbar-nav navbar-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/cults.html">Cultos</a></li>
+            <li><a href="#address">Localização</a></li>
+            <li><a href="#contacts">Contatos</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-social-media">
+            <li class="">
+              <a
+                href="https://www.facebook.com/videira.luziania.98"
+                target="_blank"
+                ><img src="includes/icons/facebook-flat.svg"
+              /></a>
+            </li>
+            <li class="">
+              <a
+                href="https://instagram.com/videiraluzianiago?igshid=17ys05m7okf4u"
+                target="_blank"
+                ><img src="includes/icons/instagram.png"
+              /></a>
+            </li>
+            <li class="">
+              <a href="https://twitter.com/VLuziania" target="_blank"
+                ><img src="includes/icons/twitter-flat.svg"
+              /></a>
+            </li>
+            <li class="">
+              <a
+                href="https://www.youtube.com/channel/UCB4g8yK7TI31B7_xOFUtCZQ"
+                target="_blank"
+                ><img src="includes/icons/youtube-flat.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </nav>
 
     <section class="vision">
-        <div class="image">
-            <img id="vision" class="img-responsive" src="includes/images/videira-vision.png">
-        </div>
-        <div id="salutation" class="salutation">
-            <h1 class="title-salutation">Seja bem-vindo!</h1>
-        </div>
+      <div class="image">
+        <img
+          id="vision"
+          class="img-responsive"
+          src="includes/images/videira-vision.png"
+        />
+      </div>
+      <div id="salutation" class="salutation">
+        <h1 class="title-salutation">Seja bem-vindo!</h1>
+      </div>
     </section>
-    
-    <main class="container">
-        <article class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 when-was">
-            <h1 class="title-h1 title-article">Quem Somos</h1>
-            <p class="text-p-center text-article">Nascida em 1998, sob a liderança do pastor Aluízio Silva, a Videira Igreja em Células iniciou seu trabalho ministerial numa garagem em Goiânia, mais precisamento na casa do pastor Naor Pedrosa. Hoje somos mais de mil igrejas e inumeros pastores espalhados em vários países do mundo, cujo o único propósito, é pregar o evangelho a toda criatura a fim de que seja salvos, cumprindo assim o que está escrito em <span class="griffs">Marcos 16.15</span>.</p>
-            <p class="text-p-center text-article">Nós cremos que todo aquele que crê e confessa a Jesus Cristo como o Senhor de sua vida torna-se um filho de Deus. No novo Testamento isso é chamado de <span class="griffs">"novo nascimento"</span> e todo aquele que nasceu de novo em Cristo Jesus é também um ministro d'Ele, um sacerdote do Senhor, dessa forma tal individui passa a estar apto a falar da parte de Deus e a realizar a Sua obra.</p>
-            <p class="text-p-center text-article">Somos uma igreja em células por que cremos que as células sempre estiveram no coração de Deus desde os tempos eternos, tempo em que não havia criação, havia somente Deus. Através delas podemos ter uma expressão da divindade na terra uma vez que Deus é um, mas subexiste na forma de três: Pai, Filho e Espirito Santo.</p>
-            <p class="text-p-center text-article"> Foi em células também que o Senhor organizou a igreja primitiva para cumprir o Seu propósito, por isso, nós entendemos que esse é um padrão Divino e amparado no Novo Testamento em <span class="griffs">At 2.42-46</span>. Em nosso meio, todos os membros fazem parte de uma célula e podem (se quiserem) tornarem líderes ou anfitriões de célula também. O nosso encargo é edificar uma igreja de vencedores e entendemos que através das células cada crente pode desenvolver o seu ministério e edificar algo para Deus.</p>
-            <p class="text-p-center text-article griffs">Venha fazer parte de uma de nossas células você também!!!</p>
-        </article>
-    </main>
 
-    <div class="carousel slide" data-ride="carousel" id="galeria" >
-        <div class="carousel-inner container">
-           
-            <ol class="carousel-indicators">
-                <li data-target="#galeria" data-slide-to="0" class="active"></li>
-                <li data-target="#galeria" data-slide-to="1"></li>
-                <li data-target="#galeria" data-slide-to="2"></li>
-                <li data-target="#galeria" data-slide-to="3"></li>
-                <li data-target="#galeria" data-slide-to="4"></li>
-                <li data-target="#galeria" data-slide-to="5"></li>
-            </ol>
-           
-            <div class="item active">
-                <img src="includes/images/image1.jpg" class="img-responsive">
-            </div>
-            <div class="item">
-                <img src="includes/images/image2.jpg" class="img-responsive">
-            </div>
-            <div class="item">
-                <img src="includes/images/image3.jpg" class="img-responsive">
-            </div>
-            <div class="item">
-                <img src="includes/images/image4.jpg" class="img-responsive">
-            </div>
-            <div class="item">
-                <img src="includes/images/image5.jpg" class="img-responsive">
-            </div>
-            <div class="item">
-                <img src="includes/images/image6.jpg" class="img-responsive">
-            </div>
-        </div><!-- carousel-inner -->
+    <main class="container">
+      <article
+        class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 when-was"
+      >
+        <h1 class="title-h1 title-article">Quem Somos</h1>
+        <p class="text-p-center text-article">
+          Nascida em 1998, sob a liderança do pastor Aluízio Silva, a Videira
+          Igreja em Células iniciou seu trabalho ministerial numa garagem em
+          Goiânia, mais precisamento na casa do pastor Naor Pedrosa. Hoje somos
+          mais de mil igrejas e inumeros pastores espalhados em vários países do
+          mundo, cujo o único propósito, é pregar o evangelho a toda criatura a
+          fim de que seja salvos, cumprindo assim o que está escrito em
+          <span class="griffs">Marcos 16.15</span>.
+        </p>
         
-        
-        <!-- 
+        <p class="text-p-center text-article">
+          Nós cremos que todo aquele que crê e confessa a Jesus Cristo como o
+          Senhor de sua vida torna-se um filho de Deus. No novo Testamento isso
+          é chamado de <span class="griffs">"novo nascimento"</span> e todo
+          aquele que nasceu de novo em Cristo Jesus é também um ministro d'Ele,
+          um sacerdote do Senhor, dessa forma tal individui passa a estar apto a
+          falar da parte de Deus e a realizar a Sua obra.
+        </p>
+        <p class="text-p-center text-article">
+          Somos uma igreja em células por que cremos que as células sempre
+          estiveram no coração de Deus desde os tempos eternos, tempo em que não
+          havia criação, havia somente Deus. Através delas podemos ter uma
+          expressão da divindade na terra uma vez que Deus é um, mas subexiste
+          na forma de três: Pai, Filho e Espirito Santo.
+        </p>
+        <p class="text-p-center text-article">
+          Foi em células também que o Senhor organizou a igreja primitiva para
+          cumprir o Seu propósito, por isso, nós entendemos que esse é um padrão
+          Divino e amparado no Novo Testamento em
+          <span class="griffs">At 2.42-46</span>. Em nosso meio, todos os
+          membros fazem parte de uma célula e podem (se quiserem) tornarem
+          líderes ou anfitriões de célula também. O nosso encargo é edificar uma
+          igreja de vencedores e entendemos que através das células cada crente
+          pode desenvolver o seu ministério e edificar algo para Deus.
+        </p>
+        <p class="text-p-center text-article griffs">
+          Venha fazer parte de uma de nossas células você também!!!
+        </p>
+      </article>
+    </main>
+    
+    <div class="carousel slide" data-ride="carousel" id="galeria">
+      <div class="carousel-inner container">
+        <ol class="carousel-indicators">
+          <li data-target="#galeria" data-slide-to="0" class="active"></li>
+          <li data-target="#galeria" data-slide-to="1"></li>
+          <li data-target="#galeria" data-slide-to="2"></li>
+          <li data-target="#galeria" data-slide-to="3"></li>
+          <li data-target="#galeria" data-slide-to="4"></li>
+          <li data-target="#galeria" data-slide-to="5"></li>
+        </ol>
+
+        <div class="item active">
+          <img src="includes/images/image1.jpg" class="img-responsive" />
+        </div>
+        <div class="item">
+          <img src="includes/images/image2.jpg" class="img-responsive" />
+        </div>
+        <div class="item">
+          <img src="includes/images/image3.jpg" class="img-responsive" />
+        </div>
+        <div class="item">
+          <img src="includes/images/image4.jpg" class="img-responsive" />
+        </div>
+        <div class="item">
+          <img src="includes/images/image5.jpg" class="img-responsive" />
+        </div>
+        <div class="item">
+          <img src="includes/images/image6.jpg" class="img-responsive" />
+        </div>
+      </div>
+      <!-- carousel-inner -->
+
+      <!-- 
             <a class="carousel-control" href="#galeria" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
             </a>
@@ -144,47 +221,71 @@
             <a class="carousel-control" href="#galeria" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
-        -->            
-    </div><!-- fim do carousel -->
+        -->
+    </div>
+    <!-- fim do carousel -->
 
-    <div id="address" class="container address subtitles col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1 class="title-footer title-h1 title-article"><img id="address-icon" src="includes/icons/ios-pin-white.svg">Onde Estamos</h1>
-        <div class="container description-container">
-            <div class="address-description col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h3 class="subtitle-footer" >Endereço:</h3>
-                <p class="text-footer">Rua Ataufo Alves, Quadra 38, Lote 12-A,</p>
-                <p class="text-footer">Parque Estrela Dalva I.</p>
-                <p class="text-footer"><b>(Próximo ao supermercado Comprão)</b></p>
-            </div>
+    <div
+      id="address"
+      class="container address subtitles col-xs-12 col-sm-12 col-md-12 col-lg-12"
+    >
+      <h1 class="title-footer title-h1 title-article">
+        <img id="address-icon" src="includes/icons/ios-pin-white.svg" />Onde
+        Estamos
+      </h1>
+      <div class="container description-container">
+        <div class="address-description col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h3 class="subtitle-footer">Endereço:</h3>
+          <p class="text-footer">Rua Ataufo Alves, Quadra 38, Lote 12-A,</p>
+          <p class="text-footer">Parque Estrela Dalva I.</p>
+          <p class="text-footer"><b>(Próximo ao supermercado Comprão)</b></p>
         </div>
-        <div class="container map-container">
-            <div id=" container address-map" class="address-map col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <map>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d677.1075670278947!2d-47.92079510690241!3d-16.256448483689017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a854f621b6ab1a5!2sVideira%20Igreja%20em%20C%C3%A9lulas!5e0!3m2!1spt-BR!2sbr!4v1581257613018!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </map>
-            </div>
+      </div>
+      <div class="container map-container">
+        <div
+          id=" container address-map"
+          class="address-map col-xs-12 col-sm-12 col-md-6 col-lg-6"
+        >
+          <map>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d677.1075670278947!2d-47.92079510690241!3d-16.256448483689017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a854f621b6ab1a5!2sVideira%20Igreja%20em%20C%C3%A9lulas!5e0!3m2!1spt-BR!2sbr!4v1581257613018!5m2!1spt-BR!2sbr"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+            ></iframe>
+          </map>
         </div>
-        <div class="background-map-container"></div>
+      </div>
+      <div class="background-map-container"></div>
     </div>
 
     <div class="container divisor-between-map-and-footer"></div>
-    
+
     <footer id="contacts" class="container col-md-12">
-        <div class="footer-col-left col-xs-12 col-sm-12  col-md-4 col-lg-6">
-            <div class="brand container">
-                <img class="img-responsive logo" src="includes/images/videira-logo-unofficial.png" >
-            </div>
+      <div class="footer-col-left col-xs-12 col-sm-12 col-md-4 col-lg-6">
+        <div class="brand container">
+          <img
+            class="img-responsive logo"
+            src="includes/images/videira-logo-unofficial.png"
+          />
         </div>
-        <div class="footer-col-right col-xs-12 col-sm-12 col-md-4 col-lg-6">
-            <div class="description-logo container">
-                <h3>Contatos</h3>
-                <img id="call" src="includes/icons/md-call.svg" ><p>Telefone: (61) 99656-8430 <img id="whatsapp" src="includes/icons/whatsapp.png"></p>
-                <img id="email" src="includes/icons/md-mail.svg"><p>E-mail: videiraluziania@gmail.com</p>
-            </div>
+      </div>
+      <div class="footer-col-right col-xs-12 col-sm-12 col-md-4 col-lg-6">
+        <div class="description-logo container">
+          <h3>Contatos</h3>
+          <img id="call" src="includes/icons/md-call.svg" />
+          <p>
+            Telefone: (61) 99656-8430
+            <img id="whatsapp" src="includes/icons/whatsapp.png" />
+          </p>
+          <img id="email" src="includes/icons/md-mail.svg" />
+          <p>E-mail: videiraluziania@gmail.com</p>
         </div>
-        <div class="container copyright">
-            <p class="text-footer copyright">&copy; Todos os direiros reservados</p>
-        </div>
+      </div>
+      <div class="container copyright">
+        <p class="text-footer copyright">&copy; Todos os direiros reservados</p>
+      </div>
     </footer>
-</body>
+    <button class="back-to-top" href="#back-to-top"><img class="img-responsive" src="includes/icons/back-to-top1.png"></button>
+  </body>
 </html>

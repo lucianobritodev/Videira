@@ -1,0 +1,15 @@
+.back-to-top {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: none !important;
+    border-radius: 60px;
+    box-shadow: 3px 5px 24px -2px rgba(0, 0, 0, .75);
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 25px;
+    bottom: 15px;
+    z-index: 3;
+    display: none;
+  }
