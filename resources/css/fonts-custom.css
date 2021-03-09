@@ -1,11 +1,16 @@
+@font-face {
+    font-family: nathalia;
+    src: url(../fonts/Nathalia.ttf);
+}
+
 @media (max-width: 1920px) {
     h1.title-salutation {
         position: relative;
         text-align: center;
-        margin-top: 5%;
+        margin-top: 10%;
         padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3.2em;
+        font-family: nathalia;
+        font-size: 4em;
         font-weight: 700;
         z-index: -10;
         color: #fff;
@@ -13,7 +18,13 @@
 
     h1.title-article {
         font-size: 2.5em;
-        margin: 0;
+        font-weight: bold;
+        margin: 0 0 2%;
+    }
+
+    #title-when-was, #call-to-cults {
+        font-family: nathalia;
+        font-size: 400%;
     }
 
     p.text-article {
@@ -57,6 +68,11 @@
         font-size: 2.8em;
     }
 
+    #title-when-was, #call-to-cults {
+        font-family: nathalia;
+        font-size: 300%;
+    }
+
     h1.title-article {
         font-size: 2.5em;
     }
@@ -92,6 +108,11 @@
 
     h1.title-salutation {
         font-size: 2.3em;
+    }
+
+    #title-when-was, #call-to-cults {
+        font-family: nathalia;
+        font-size: 230%;
     }
 
     h1.title-article {
@@ -192,7 +213,7 @@ div p.text-footer {
 }
 
 div p.copyright {
-    color:  	#fff;
+    color:  	#4F4F4F;
     font-weight: bold;
 }
 

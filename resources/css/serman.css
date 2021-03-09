@@ -1,23 +1,15 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: nathalia;
+    src: url(../fonts/Nathalia.ttf);
+}
+
+/*
 @media (max-width: 1920px) {
 
     div.serman-container {
         padding: 0 5em 5em;
-    }
-
-    div.img-serman {
-        width: 100%;
-        height: fit-content;
-        margin: 0 auto;
-        padding: 0 10%;
-        float: none;
-        overflow: hidden;
-        clear: both;
-    }
-
-    div.img-serman img {
-        width: 100%;
     }
 
     article.serman-content {
@@ -26,20 +18,7 @@
     }
 }
 
-@media (max-width: 1170px) {
-
-    div.img-serman {
-        padding: 0 5%;
-    }
-
-}
-
 @media (max-width: 1005px) {
-
-
-    div.img-serman {
-        padding: 0;
-    }
 
     article.serman-content {
         width: 100% !important;
@@ -55,13 +34,6 @@
         margin-top: 0 !important;
         padding: 0 4%;
     }
-
-    div.img-serman {
-        width: 90%;
-        padding: 0 !important;
-        margin-top: 0;
-        top: 0em !important ;
-    }
     
     div.serman-container {
         margin-top: 0em !important;
@@ -76,21 +48,13 @@
 }
 
 main.serman-main {
-    top: -1.5em;
+    top: 0em;
     background-color: unset;
 }
 
 div.serman-container {
-    margin-top: -1.5em;
-}
-
-div.img-serman {
-    z-index: 1;
-}
-
-div.img-serman img {
-    border: #fff solid 1.5px;
-    border-radius: 35px;
+    margin-top: 0em;
+    width: 80%;
 }
 
 article.serman-content {
@@ -107,4 +71,83 @@ div.background-serman {
     background-color: #DCDCDC;
     opacity: 50%;
     z-index: -1;
+}
+*/
+/*
+col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10
+*/
+
+.content-parallax-cult {
+    width: 100%;
+    height: 100%;
+    color: rgba(0,0,0,0.6) !important;
+    background-color: rgba(220,220,220, 0.6);
+    padding: 2% 0 5%;   
+}
+
+.content-parallax-cult p {
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.serman-main {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 8);
+    color: #fff !important;
+    z-index: -1;
+}
+
+.serman-row {
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff !important;
+    padding: 0 12%;
+    margin: 0;
+}
+
+.serman-content {
+    color: #fff !important;
+    position: relative;
+    width: 100%;
+    padding: 5% 0;
+    margin: 0;
+    z-index: 100;
+}
+
+#address-icon {
+    width: 08%;
+    height: 1.8em;
+    margin-bottom: 2.8px;
+    margin-right: 0px;
+    padding: 0;
+}
+
+.text-serman, .title-serman, .subtitle-serman, .biblical-text {
+    color: #C0C0C0 !important;
+}
+
+.address-cult {
+    margin: 0;
+    padding: 25px 0 5px 0;
+}
+
+.address-cult a {
+    color:  rgba(0,0,0,0.6);
+    text-decoration: none;
+    border: #000 1.5px solid;
+    border-radius: 35px;
+    padding: 2% 5% 2% 1%;
+    margin: 0;
+    width: 3em;
+    box-shadow: 0px 12px 35px 0px rgba(0, 0, 0, 0.9);
+}
+
+.address-cult a:hover {
+    text-decoration: none;
+    color:  rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.address-cult a img {
+    opacity: 70%;
 }

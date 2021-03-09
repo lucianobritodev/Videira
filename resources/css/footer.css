@@ -1,5 +1,15 @@
 footer {
-    background-color: #D3D3D3;
+    background-color: rgba(220,220,220, 0.8);
+    color:	#4F4F4F !important;
+}
+
+div.copyright {
+    width: 100%;
+    height: 5em;
+    margin: 2.5em 0 0 0;
+    padding: 2% 0 0;
+    text-align: center;
+    clear: both;
 }
 
 @media (max-width: 1920px) {
@@ -119,21 +129,18 @@ footer {
 
     .description-logo h3 {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        color:	#4F4F4F;
         text-align: left;
         margin: 2% 0 2% -4%;
     }
 
     .description-logo p {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        color:	#4F4F4F;
         text-align: start;
         margin: -8.5% 0 0 5%;
     }
 
     .description-logo p a {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        color:	#4F4F4F;
         text-decoration: none;
         text-underline-position: unset;
     }
@@ -188,14 +195,12 @@ footer {
 
     .description-logo h3 {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        color:	#4F4F4F;
         text-align: left;
         margin: 2% 0 2% -4%;
     }
 
     .description-logo p {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        color:	#4F4F4F;
         text-align: start;
         margin: -8.5% 0 0 5%;
         
@@ -203,7 +208,6 @@ footer {
 
     .description-logo p a {
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        color:	#4F4F4F;
         text-decoration: none;
         text-underline-position: unset;
     }
@@ -300,13 +304,4 @@ footer {
         left: 1%;
         top: -0.2em;
     } 
-}
-
-div.copyright {
-    width: 100%;
-    height: 5em;
-    margin: 2.5em 0 0 0;
-    padding: 2% 0 0;
-    text-align: center;
-    clear: both;
 }

@@ -1,0 +1,10 @@
+.header-cults {
+    background-image: url(../../includes/images/cult.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}

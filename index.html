@@ -29,24 +29,11 @@
       src="resources/js/flickity.pkgd.min.js"
     ></script>
     <script type="text/jscript" src="resources/js/bootstrap.min.js"></script>
+    <script type="text/jscript" src="resources/js/fade.js"></script>
     <script type="text/jscript" src="resources/js/carousel.js"></script>
     <script type="text/jscript" src="resources/js/back-to-top.js"></script>
     <script>
-      $(function () {
-        $(".vision").focusin($("div#salutation").fadeIn(5000));
-        $(".vision").focusout($("div#salutation").fadeOut(5000));
-      });
 
-      $(function () {
-        height = $("#vision").css("height");
-        width = $("#vision").css("width");
-        marginTop = $("#vision").css("margin-top");
-        marginLeft = $("#vision").css("margin-left");
-
-        /*
-            console.log("height: " + height + ", width: " + width + ", margin-top: " + marginTop + ", margin-left: " + marginLeft);
-            */
-      });
     </script>
   </head>
   <body>
@@ -139,7 +126,7 @@
       <article
         class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 when-was"
       >
-        <h1 class="title-h1 title-article">Quem Somos</h1>
+        <h1 id="title-when-was" class="title-h1 title-article">Quem Somos</h1>
         <p class="text-p-center text-article">
           Nascida em 1998, sob a liderança do pastor Aluízio Silva, a Videira
           Igreja em Células iniciou seu trabalho ministerial numa garagem em
