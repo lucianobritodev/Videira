@@ -4,7 +4,7 @@
 ## Github Pages Live Preview
 
 Para vislumbrar seu comportamento, funcionalidades e também sua aparencia, você pode acessar o site através do Github Pages.
-link do projeto: https://lucianoaparecidobritoguedes.github.io/Videira/
+link do projeto: https://lucianobritodev.github.io/Videira/
 
 
 ## Description
